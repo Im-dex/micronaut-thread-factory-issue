@@ -1,0 +1,11 @@
+micronaut:
+  server:
+    port: 54765
+  application:
+    name: start_error
+  netty:
+    event-loops:
+      default:
+        num-threads: 1
+      clients:
+        num-threads: 1
